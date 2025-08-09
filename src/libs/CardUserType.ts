@@ -5,3 +5,9 @@ interface CardUserProps{
   email :string
 };
 export type { CardUserProps };
+
+interface UserCardDetailProps {
+  email: string;
+  address: string;
+}
+export type { UserCardDetailProps };
